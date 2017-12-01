@@ -1,0 +1,38 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body
+{
+	font-family:'Bigelow Rules', cursive;
+}
+
+.style1
+{
+	background-image: url(../img/1.jpg);
+	-webkit-background-size:cover;
+	background-size: cover;
+	transition: all ls ease-in-out;
+	height: 100vh; 
+}
+
+
+p
+{
+	text-align: center;
+	padding-top: 20%;
+	font-size: 100px;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.style1:hover
+{
+	background-image: url(../img/2.jpg);
+	-webkit-background-size:cover;
+	background-size: cover;
+	transition: all ls ease-in-out;
+	height: 100vh; 
+}
